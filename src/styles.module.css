@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -6,10 +6,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(228, 227, 227);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.div {
-    border: 2px solid black;
+.calculatorBody {
     width: 600px;
     height: 500px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
 }
